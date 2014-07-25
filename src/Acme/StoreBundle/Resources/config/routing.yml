@@ -1,0 +1,12 @@
+acme_store_create:
+    path:     /create
+    defaults: { _controller: AcmeStoreBundle:Default:create }
+
+acme_store_show:
+    path:     /show/{id}
+    defaults: { _controller: AcmeStoreBundle:Default:show }
+
+acme_store_homepage:
+    path:     /
+    defaults: { _controller: AcmeStoreBundle:Default:index }
+

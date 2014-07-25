@@ -1,0 +1,7 @@
+acme_store:
+    resource: "@AcmeStoreBundle/Resources/config/routing.yml"
+    prefix:   /
+
+sonata:
+    resource: "routing_sonata_admin.yml"
+    prefix:   /
